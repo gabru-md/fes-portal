@@ -69,6 +69,6 @@ app.use('/events',routes.events)
 app.use('/',express.static(path.join(__dirname,'public_html')),routes.home)
 
 
-app.listen(4000, () => {
-    console.log("Now running on port 4000");
+app.listen(4100, () => {
+    console.log("Now running on port 4100");
 })
